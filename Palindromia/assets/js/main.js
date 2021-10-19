@@ -10,6 +10,12 @@ if (inputWorld == reverseWorld) {
 else {
     check.innerHTML = "La parola non è palindroma";
 }
+
+
+/**
+ * Inverte la parola per poi confrontarla.
+ * @param {string} word - parola da invertire
+ */
 function invertWorld(parola) {
     let temp = "";
     for (let i = parola.length - 1; i >= 0; i--) {

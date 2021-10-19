@@ -1,10 +1,17 @@
 
 //function
 
+
+/** Crea un numero random in un range definibile
+ * @param {integer} number - Inserisci rage nel formato (min),(max)
+*/
 function randomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
+/** Controlla se il numero inserito è pari
+ * @param {integer} number - inserisci un numero
+*/
 function isEven(numero) {
     if (sum % 2 == 0) {
         return true;
